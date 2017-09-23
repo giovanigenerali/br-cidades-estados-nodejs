@@ -4,6 +4,21 @@ API para consultar todos os estados e cidades do Brasil
 
 [<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/blob/master/LICENSE)
 
+## Como funciona
+
+  * Instalação
+  
+  ```bash
+    $ npm install
+  ```
+
+  * Iniciar aplicação
+
+  ```bash
+  $ npm start
+  ```
+  Acessar http://localhost:3000/estados no navegador e seguir a documentação para fazer outras chamadas na API.
+
 ## Estados
 
 #### Listar todos os estados:
