@@ -2,6 +2,8 @@
 
 API para consultar todos os estados e cidades do Brasil
 
+[<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/LICENSE)
+
 ## Estados
 
 #### Listar todos os estados:
@@ -246,6 +248,6 @@ GET /cidades?capital=true&estadoId=SP&estadoId=RJ
 ]
 ```
 
-## Licença
-
-MIT - [WGenial](https://github.com/wgenial)
+## Autor
+| [<img src="https://avatars0.githubusercontent.com/u/41435?v=4&s=120"><br><sub>@giovanigenerali</sub>](https://github.com/giovanigenerali) |
+| :---: |
