@@ -225,6 +225,27 @@ API para consultar todos os estados e cidades do Brasil
 
   ```
 
+#### Capitais
+
+Listar todas as cidades que são capitais:
+
+```
+GET /capitais
+GET /cidades?capital=true
+GET /cidades?capital=true&estadoId=SP
+GET /cidades?capital=true&estadoId=SP&estadoId=RJ
+```
+
+```json
+[
+  {
+    "estadoId": "AC",
+    "cidade": "Rio Branco",
+    "capital": true
+  },
+]
+```
+
 ## Licença
 
 MIT - [WGenial](https://github.com/wgenial)
