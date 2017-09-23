@@ -21,8 +21,7 @@ server.use(jsonServer.rewriter({
   '/estados/:id': '/estados/:id?_embed=cidades',
   '/estados/:id/cidades': '/estados/:id?_embed=cidades',
   '/estados/:id/capital': '/estados/:id/cidades?capital=true',
-  '/capitais': '/cidades?capital=true',
-  '/cidades\\?cidade=:q': '/cidades?capital=true'
+  '/capitais': '/cidades?capital=true'
 }))
 
 router.render = (req, res) => {
