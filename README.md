@@ -2,7 +2,7 @@
 
 API para consultar todos os estados e cidades do Brasil
 
-[<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/LICENSE)
+[<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/blob/master/LICENSE)
 
 ## Estados
 
