@@ -1,8 +1,10 @@
-require('newrelic');
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
+if (process.env.NODE_ENV == "production") {
+  require('newrelic');
+}
 
 server.all('*', (req, res, next) => {
   if (req.method !== 'GET') {
@@ -10,8 +12,9 @@ server.all('*', (req, res, next) => {
       error: true,
       message: '403 Forbidden'
     })
+  } else {
+    next()
   }
-  next()
 })
 
 server.get('/', (req, res) => {
@@ -31,8 +34,9 @@ router.render = (req, res) => {
       error: true,
       message: '404 Not Found'
     })
+  } else {
+    res.jsonp(res.locals.data)
   }
-  res.jsonp(res.locals.data)
 }
 
 server.use(middlewares)
@@ -40,3 +44,5 @@ server.use(middlewares)
 server.use(router)
 
 server.listen(process.env.PORT || 3000, () => { console.log('JSON Server is running.') })
+
+exports = module.exports = server;

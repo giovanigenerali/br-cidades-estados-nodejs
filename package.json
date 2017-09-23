@@ -19,10 +19,19 @@
   },
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start:dev": "nodemon app.js",
+    "start": "node app.js",
+    "test:dev": "nodemon --timeout 10000 --watch . --exec 'mocha ./test/index.js || true'",
+    "test": "mocha --timeout 10000"
   },
   "dependencies": {
     "json-server": "^0.12.0",
     "newrelic": "^2.2.1"
+  },
+  "devDependencies": {
+    "mocha": "^3.5.3",
+    "nodemon": "^1.12.1",
+    "should": "^13.1.0",
+    "supertest": "^3.0.0"
   }
 }
