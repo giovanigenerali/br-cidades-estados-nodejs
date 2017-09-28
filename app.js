@@ -1,10 +1,10 @@
+if (process.env.NODE_ENV == "production") {
+  require('newrelic');
+}
 const jsonServer = require('json-server')
 const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
-if (process.env.NODE_ENV == "production") {
-  require('newrelic');
-}
 
 server.all('*', (req, res, next) => {
   if (req.method !== 'GET') {
