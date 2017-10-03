@@ -4,6 +4,7 @@ API para consultar todos os estados e cidades do Brasil
 
 https://br-cidades-estados-nodejs.herokuapp.com/estados
 
+[![Build Status](https://travis-ci.org/wgenial/br-cidades-estados-nodejs.svg?branch=master)](https://travis-ci.org/wgenial/br-cidades-estados-nodejs)
 [![npm version](https://badge.fury.io/js/br-cidades-estados-nodejs.svg)](https://badge.fury.io/js/br-cidades-estados-nodejs)
 [<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/blob/master/LICENSE)
 
