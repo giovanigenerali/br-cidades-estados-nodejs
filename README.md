@@ -8,9 +8,6 @@ https://glitch.com/edit/#!/br-cidade-estado-nodejs
 glitch.me - preview:
 https://br-cidade-estado-nodejs.glitch.me/estados
 
-heroku - preview:
-https://br-cidades-estados-nodejs.herokuapp.com/estados
-
 
 [![Build Status](https://travis-ci.org/wgenial/br-cidades-estados-nodejs.svg?branch=master)](https://travis-ci.org/wgenial/br-cidades-estados-nodejs)
 [![npm version](https://badge.fury.io/js/br-cidades-estados-nodejs.svg)](https://badge.fury.io/js/br-cidades-estados-nodejs)
