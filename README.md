@@ -11,6 +11,7 @@ https://br-cidade-estado-nodejs.glitch.me/estados
 
 [![Build Status](https://travis-ci.org/wgenial/br-cidades-estados-nodejs.svg?branch=master)](https://travis-ci.org/wgenial/br-cidades-estados-nodejs)
 [![npm version](https://badge.fury.io/js/br-cidades-estados-nodejs.svg)](https://badge.fury.io/js/br-cidades-estados-nodejs)
+[![Known Vulnerabilities](https://snyk.io/test/github/wgenial/br-cidades-estados-nodejs/badge.svg)](https://snyk.io/test/github/wgenial/br-cidades-estados-nodejs)
 [<img src="https://img.shields.io/github/license/mashape/apistatus.svg">](https://github.com/wgenial/br-cidades-estados-nodejs/blob/master/LICENSE)
 
 ## Como funciona
