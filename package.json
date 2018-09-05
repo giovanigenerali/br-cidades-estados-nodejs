@@ -2,7 +2,7 @@
   "name": "br-cidades-estados-nodejs",
   "description": "API para consultar todos os estados e cidades do Brasil",
   "author": "Giovani Generali",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
   "homepage": "https://github.com/wgenial/br-cidades-estados-nodejs",
   "keywords": [
@@ -25,12 +25,12 @@
     "test": "mocha --timeout 10000 --exit"
   },
   "dependencies": {
-    "json-server": "^0.12.0"
+    "json-server": "^0.14.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "nodemon": "^1.17.5",
-    "should": "^13.1.0",
-    "supertest": "^3.1.0"
+    "nodemon": "^1.18.4",
+    "should": "^13.2.3",
+    "supertest": "^3.2.0"
   }
 }
