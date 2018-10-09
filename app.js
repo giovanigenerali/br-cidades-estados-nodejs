@@ -3,13 +3,9 @@ const server = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-if (process.env.NODE_ENV == 'production') {
-  require('newrelic');
-}
-
 server.all('*', (req, res, next) => {
   if (req.method !== 'GET') {
-    res.status(403).jsonp({ 
+    res.status(403).jsonp({
       error: true,
       message: '403 Forbidden'
     })
