@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "json-server": "^0.14.0",
-    "snyk": "^1.230.5"
+    "snyk": "^1.241.0"
   },
   "devDependencies": {
     "mocha": "^5.2.0",
