@@ -15,7 +15,7 @@ server.all('*', (req, res, next) => {
 })
 
 server.get('/', (req, res) => {
-  res.redirect('https://github.com/wgenial/br-cidades-estados-nodejs/blob/master/README.md')
+  res.redirect('https://github.com/giovanigenerali/br-cidades-estados-nodejs/blob/master/README.md')
 })
 
 server.use(jsonServer.rewriter({
