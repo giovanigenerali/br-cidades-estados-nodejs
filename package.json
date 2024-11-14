@@ -4,7 +4,7 @@
   "author": "Giovani Generali",
   "version": "1.0.6",
   "license": "MIT",
-  "homepage": "https://github.com/wgenial/br-cidades-estados-nodejs",
+  "homepage": "https://github.com/giovanigenerali/br-cidades-estados-nodejs",
   "keywords": [
     "brasil",
     "cidades",
@@ -12,10 +12,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wgenial/br-cidades-estados-nodejs.git"
+    "url": "git+https://github.com/giovanigenerali/br-cidades-estados-nodejs.git"
   },
   "bugs": {
-    "url": "https://github.com/wgenial/br-cidades-estados-nodejs/issues"
+    "url": "https://github.com/giovanigenerali/br-cidades-estados-nodejs/issues"
   },
   "main": "app.js",
   "scripts": {
