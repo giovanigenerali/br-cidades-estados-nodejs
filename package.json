@@ -32,7 +32,7 @@
   },
   "devDependencies": {
     "mocha": "^5.2.0",
-    "nodemon": "^1.18.9",
+    "nodemon": "^3.1.7",
     "should": "^13.2.3",
     "supertest": "^3.3.0"
   },
